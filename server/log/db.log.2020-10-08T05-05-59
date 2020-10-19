@@ -1,0 +1,73 @@
+{"t":{"$date":"2020-10-06T11:28:58.408+08:00"},"s":"I",  "c":"CONTROL",  "id":23285,   "ctx":"main","msg":"Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'"}
+{"t":{"$date":"2020-10-06T11:28:58.414+08:00"},"s":"W",  "c":"ASIO",     "id":22601,   "ctx":"main","msg":"No TransportLayer configured during NetworkInterface startup"}
+{"t":{"$date":"2020-10-06T11:28:58.415+08:00"},"s":"I",  "c":"NETWORK",  "id":4648602, "ctx":"main","msg":"Implicit TCP FastOpen in use."}
+{"t":{"$date":"2020-10-06T11:28:58.416+08:00"},"s":"I",  "c":"STORAGE",  "id":4615611, "ctx":"initandlisten","msg":"MongoDB starting","attr":{"pid":5164,"port":27017,"dbPath":"D:/phpstudy_pro/WWW/node/国庆大作业电商系统/server/db","architecture":"64-bit","host":"DESKTOP-HRSCUMJ"}}
+{"t":{"$date":"2020-10-06T11:28:58.417+08:00"},"s":"I",  "c":"CONTROL",  "id":23398,   "ctx":"initandlisten","msg":"Target operating system minimum version","attr":{"targetMinOS":"Windows 7/Windows Server 2008 R2"}}
+{"t":{"$date":"2020-10-06T11:28:58.417+08:00"},"s":"I",  "c":"CONTROL",  "id":23403,   "ctx":"initandlisten","msg":"Build Info","attr":{"buildInfo":{"version":"4.4.1","gitVersion":"ad91a93a5a31e175f5cbf8c69561e788bbc55ce1","modules":[],"allocator":"tcmalloc","environment":{"distmod":"windows","distarch":"x86_64","target_arch":"x86_64"}}}}
+{"t":{"$date":"2020-10-06T11:28:58.417+08:00"},"s":"I",  "c":"CONTROL",  "id":51765,   "ctx":"initandlisten","msg":"Operating System","attr":{"os":{"name":"Microsoft Windows 10","version":"10.0 (build 18363)"}}}
+{"t":{"$date":"2020-10-06T11:28:58.417+08:00"},"s":"I",  "c":"CONTROL",  "id":21951,   "ctx":"initandlisten","msg":"Options set by command line","attr":{"options":{"storage":{"dbPath":"D:\\phpstudy_pro\\WWW\\node\\国庆大作业电商系统\\server\\db"},"systemLog":{"destination":"file","path":"D:\\phpstudy_pro\\WWW\\node\\国庆大作业电商系统\\server\\log/db.log"}}}}
+{"t":{"$date":"2020-10-06T11:28:58.425+08:00"},"s":"I",  "c":"STORAGE",  "id":22270,   "ctx":"initandlisten","msg":"Storage engine to use detected by data files","attr":{"dbpath":"D:/phpstudy_pro/WWW/node/国庆大作业电商系统/server/db","storageEngine":"wiredTiger"}}
+{"t":{"$date":"2020-10-06T11:28:58.425+08:00"},"s":"I",  "c":"STORAGE",  "id":22315,   "ctx":"initandlisten","msg":"Opening WiredTiger","attr":{"config":"create,cache_size=3497M,session_max=33000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000,close_scan_interval=10,close_handle_minimum=250),statistics_log=(wait=0),verbose=[recovery_progress,checkpoint_progress,compact_progress],"}}
+{"t":{"$date":"2020-10-06T11:28:58.586+08:00"},"s":"I",  "c":"STORAGE",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":"[1601954938:586058][5164:140706063212112], txn-recover: [WT_VERB_RECOVERY_PROGRESS] Recovering log 1 through 2"}}
+{"t":{"$date":"2020-10-06T11:28:58.675+08:00"},"s":"I",  "c":"STORAGE",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":"[1601954938:674818][5164:140706063212112], txn-recover: [WT_VERB_RECOVERY_PROGRESS] Recovering log 2 through 2"}}
+{"t":{"$date":"2020-10-06T11:28:58.753+08:00"},"s":"I",  "c":"STORAGE",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":"[1601954938:752609][5164:140706063212112], txn-recover: [WT_VERB_RECOVERY | WT_VERB_RECOVERY_PROGRESS] Main recovery loop: starting at 1/176512 to 2/256"}}
+{"t":{"$date":"2020-10-06T11:28:58.905+08:00"},"s":"I",  "c":"STORAGE",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":"[1601954938:905201][5164:140706063212112], txn-recover: [WT_VERB_RECOVERY_PROGRESS] Recovering log 1 through 2"}}
+{"t":{"$date":"2020-10-06T11:28:59.027+08:00"},"s":"I",  "c":"STORAGE",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":"[1601954939:26219][5164:140706063212112], txn-recover: [WT_VERB_RECOVERY_PROGRESS] Recovering log 2 through 2"}}
+{"t":{"$date":"2020-10-06T11:28:59.092+08:00"},"s":"I",  "c":"STORAGE",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":"[1601954939:92009][5164:140706063212112], txn-recover: [WT_VERB_RECOVERY | WT_VERB_RECOVERY_PROGRESS] Set global recovery timestamp: (0, 0)"}}
+{"t":{"$date":"2020-10-06T11:28:59.092+08:00"},"s":"I",  "c":"STORAGE",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":"[1601954939:92009][5164:140706063212112], txn-recover: [WT_VERB_RECOVERY | WT_VERB_RECOVERY_PROGRESS] Set global oldest timestamp: (0, 0)"}}
+{"t":{"$date":"2020-10-06T11:28:59.253+08:00"},"s":"I",  "c":"STORAGE",  "id":4795906, "ctx":"initandlisten","msg":"WiredTiger opened","attr":{"durationMillis":828}}
+{"t":{"$date":"2020-10-06T11:28:59.253+08:00"},"s":"I",  "c":"RECOVERY", "id":23987,   "ctx":"initandlisten","msg":"WiredTiger recoveryTimestamp","attr":{"recoveryTimestamp":{"$timestamp":{"t":0,"i":0}}}}
+{"t":{"$date":"2020-10-06T11:28:59.286+08:00"},"s":"I",  "c":"STORAGE",  "id":22262,   "ctx":"initandlisten","msg":"Timestamp monitor starting"}
+{"t":{"$date":"2020-10-06T11:28:59.351+08:00"},"s":"W",  "c":"CONTROL",  "id":22120,   "ctx":"initandlisten","msg":"Access control is not enabled for the database. Read and write access to data and configuration is unrestricted","tags":["startupWarnings"]}
+{"t":{"$date":"2020-10-06T11:28:59.352+08:00"},"s":"W",  "c":"CONTROL",  "id":22140,   "ctx":"initandlisten","msg":"This server is bound to localhost. Remote systems will be unable to connect to this server. Start the server with --bind_ip <address> to specify which IP addresses it should serve responses from, or with --bind_ip_all to bind to all interfaces. If this behavior is desired, start the server with --bind_ip 127.0.0.1 to disable this warning","tags":["startupWarnings"]}
+{"t":{"$date":"2020-10-06T11:28:59.411+08:00"},"s":"I",  "c":"STORAGE",  "id":20536,   "ctx":"initandlisten","msg":"Flow Control is enabled on this deployment"}
+{"t":{"$date":"2020-10-06T11:29:00.059+08:00"},"s":"I",  "c":"FTDC",     "id":20625,   "ctx":"initandlisten","msg":"Initializing full-time diagnostic data capture","attr":{"dataDirectory":"D:/phpstudy_pro/WWW/node/国庆大作业电商系统/server/db/diagnostic.data"}}
+{"t":{"$date":"2020-10-06T11:29:00.065+08:00"},"s":"I",  "c":"NETWORK",  "id":23015,   "ctx":"listener","msg":"Listening on","attr":{"address":"127.0.0.1"}}
+{"t":{"$date":"2020-10-06T11:29:00.065+08:00"},"s":"I",  "c":"NETWORK",  "id":23016,   "ctx":"listener","msg":"Waiting for connections","attr":{"port":27017,"ssl":"off"}}
+{"t":{"$date":"2020-10-07T18:03:38.561+08:00"},"s":"I",  "c":"CONTROL",  "id":23372,   "ctx":"thread1","msg":"Ctrl-C signal"}
+{"t":{"$date":"2020-10-07T18:03:38.608+08:00"},"s":"I",  "c":"CONTROL",  "id":23371,   "ctx":"consoleTerminate","msg":"Received event, will terminate after current command ends","attr":{"controlCode":"CTRL_C_EVENT"}}
+{"t":{"$date":"2020-10-07T18:03:38.633+08:00"},"s":"I",  "c":"REPL",     "id":4784900, "ctx":"consoleTerminate","msg":"Stepping down the ReplicationCoordinator for shutdown","attr":{"waitTimeMillis":10000}}
+{"t":{"$date":"2020-10-07T18:03:38.723+08:00"},"s":"I",  "c":"COMMAND",  "id":4784901, "ctx":"consoleTerminate","msg":"Shutting down the MirrorMaestro"}
+{"t":{"$date":"2020-10-07T18:03:38.723+08:00"},"s":"I",  "c":"SHARDING", "id":4784902, "ctx":"consoleTerminate","msg":"Shutting down the WaitForMajorityService"}
+{"t":{"$date":"2020-10-07T18:03:38.733+08:00"},"s":"I",  "c":"CONTROL",  "id":4784903, "ctx":"consoleTerminate","msg":"Shutting down the LogicalSessionCache"}
+{"t":{"$date":"2020-10-07T18:03:38.743+08:00"},"s":"I",  "c":"NETWORK",  "id":20562,   "ctx":"consoleTerminate","msg":"Shutdown: going to close listening sockets"}
+{"t":{"$date":"2020-10-07T18:03:38.744+08:00"},"s":"I",  "c":"NETWORK",  "id":4784905, "ctx":"consoleTerminate","msg":"Shutting down the global connection pool"}
+{"t":{"$date":"2020-10-07T18:03:38.744+08:00"},"s":"I",  "c":"STORAGE",  "id":4784906, "ctx":"consoleTerminate","msg":"Shutting down the FlowControlTicketholder"}
+{"t":{"$date":"2020-10-07T18:03:38.755+08:00"},"s":"I",  "c":"-",        "id":20520,   "ctx":"consoleTerminate","msg":"Stopping further Flow Control ticket acquisitions."}
+{"t":{"$date":"2020-10-07T18:03:38.767+08:00"},"s":"I",  "c":"STORAGE",  "id":4784908, "ctx":"consoleTerminate","msg":"Shutting down the PeriodicThreadToAbortExpiredTransactions"}
+{"t":{"$date":"2020-10-07T18:03:38.768+08:00"},"s":"I",  "c":"STORAGE",  "id":4784934, "ctx":"consoleTerminate","msg":"Shutting down the PeriodicThreadToDecreaseSnapshotHistoryCachePressure"}
+{"t":{"$date":"2020-10-07T18:03:38.775+08:00"},"s":"I",  "c":"REPL",     "id":4784909, "ctx":"consoleTerminate","msg":"Shutting down the ReplicationCoordinator"}
+{"t":{"$date":"2020-10-07T18:03:38.775+08:00"},"s":"I",  "c":"SHARDING", "id":4784910, "ctx":"consoleTerminate","msg":"Shutting down the ShardingInitializationMongoD"}
+{"t":{"$date":"2020-10-07T18:03:38.781+08:00"},"s":"I",  "c":"REPL",     "id":4784911, "ctx":"consoleTerminate","msg":"Enqueuing the ReplicationStateTransitionLock for shutdown"}
+{"t":{"$date":"2020-10-07T18:03:38.781+08:00"},"s":"I",  "c":"-",        "id":4784912, "ctx":"consoleTerminate","msg":"Killing all operations for shutdown"}
+{"t":{"$date":"2020-10-07T18:03:38.781+08:00"},"s":"I",  "c":"-",        "id":4695300, "ctx":"consoleTerminate","msg":"Interrupted all currently running operations","attr":{"opsKilled":3}}
+{"t":{"$date":"2020-10-07T18:03:38.781+08:00"},"s":"I",  "c":"COMMAND",  "id":4784913, "ctx":"consoleTerminate","msg":"Shutting down all open transactions"}
+{"t":{"$date":"2020-10-07T18:03:38.781+08:00"},"s":"I",  "c":"REPL",     "id":4784914, "ctx":"consoleTerminate","msg":"Acquiring the ReplicationStateTransitionLock for shutdown"}
+{"t":{"$date":"2020-10-07T18:03:38.782+08:00"},"s":"I",  "c":"INDEX",    "id":4784915, "ctx":"consoleTerminate","msg":"Shutting down the IndexBuildsCoordinator"}
+{"t":{"$date":"2020-10-07T18:03:38.806+08:00"},"s":"I",  "c":"REPL",     "id":4784916, "ctx":"consoleTerminate","msg":"Reacquiring the ReplicationStateTransitionLock for shutdown"}
+{"t":{"$date":"2020-10-07T18:03:38.806+08:00"},"s":"I",  "c":"REPL",     "id":4784917, "ctx":"consoleTerminate","msg":"Attempting to mark clean shutdown"}
+{"t":{"$date":"2020-10-07T18:03:38.819+08:00"},"s":"I",  "c":"NETWORK",  "id":4784918, "ctx":"consoleTerminate","msg":"Shutting down the ReplicaSetMonitor"}
+{"t":{"$date":"2020-10-07T18:03:38.826+08:00"},"s":"I",  "c":"SHARDING", "id":4784921, "ctx":"consoleTerminate","msg":"Shutting down the MigrationUtilExecutor"}
+{"t":{"$date":"2020-10-07T18:03:38.861+08:00"},"s":"I",  "c":"CONTROL",  "id":4784925, "ctx":"consoleTerminate","msg":"Shutting down free monitoring"}
+{"t":{"$date":"2020-10-07T18:03:38.862+08:00"},"s":"I",  "c":"CONTROL",  "id":20609,   "ctx":"consoleTerminate","msg":"Shutting down free monitoring"}
+{"t":{"$date":"2020-10-07T18:03:38.862+08:00"},"s":"I",  "c":"FTDC",     "id":4784926, "ctx":"consoleTerminate","msg":"Shutting down full-time data capture"}
+{"t":{"$date":"2020-10-07T18:03:38.862+08:00"},"s":"I",  "c":"FTDC",     "id":20626,   "ctx":"consoleTerminate","msg":"Shutting down full-time diagnostic data capture"}
+{"t":{"$date":"2020-10-07T18:03:38.868+08:00"},"s":"I",  "c":"STORAGE",  "id":4784927, "ctx":"consoleTerminate","msg":"Shutting down the HealthLog"}
+{"t":{"$date":"2020-10-07T18:03:38.892+08:00"},"s":"I",  "c":"STORAGE",  "id":4784929, "ctx":"consoleTerminate","msg":"Acquiring the global lock for shutdown"}
+{"t":{"$date":"2020-10-07T18:03:38.892+08:00"},"s":"I",  "c":"STORAGE",  "id":4784930, "ctx":"consoleTerminate","msg":"Shutting down the storage engine"}
+{"t":{"$date":"2020-10-07T18:03:38.892+08:00"},"s":"I",  "c":"STORAGE",  "id":20282,   "ctx":"consoleTerminate","msg":"Deregistering all the collections"}
+{"t":{"$date":"2020-10-07T18:03:38.968+08:00"},"s":"I",  "c":"STORAGE",  "id":22261,   "ctx":"consoleTerminate","msg":"Timestamp monitor shutting down"}
+{"t":{"$date":"2020-10-07T18:03:39.243+08:00"},"s":"I",  "c":"STORAGE",  "id":22263,   "ctx":"TimestampMonitor","msg":"Timestamp monitor is stopping","attr":{"error":"interrupted at shutdown"}}
+{"t":{"$date":"2020-10-07T18:03:39.244+08:00"},"s":"I",  "c":"STORAGE",  "id":22317,   "ctx":"consoleTerminate","msg":"WiredTigerKVEngine shutting down"}
+{"t":{"$date":"2020-10-07T18:03:39.244+08:00"},"s":"I",  "c":"STORAGE",  "id":22318,   "ctx":"consoleTerminate","msg":"Shutting down session sweeper thread"}
+{"t":{"$date":"2020-10-07T18:03:39.332+08:00"},"s":"I",  "c":"STORAGE",  "id":22319,   "ctx":"consoleTerminate","msg":"Finished shutting down session sweeper thread"}
+{"t":{"$date":"2020-10-07T18:03:39.332+08:00"},"s":"I",  "c":"STORAGE",  "id":22320,   "ctx":"consoleTerminate","msg":"Shutting down journal flusher thread"}
+{"t":{"$date":"2020-10-07T18:03:39.333+08:00"},"s":"I",  "c":"STORAGE",  "id":22321,   "ctx":"consoleTerminate","msg":"Finished shutting down journal flusher thread"}
+{"t":{"$date":"2020-10-07T18:03:39.333+08:00"},"s":"I",  "c":"STORAGE",  "id":22322,   "ctx":"consoleTerminate","msg":"Shutting down checkpoint thread"}
+{"t":{"$date":"2020-10-07T18:03:39.333+08:00"},"s":"I",  "c":"STORAGE",  "id":22323,   "ctx":"consoleTerminate","msg":"Finished shutting down checkpoint thread"}
+{"t":{"$date":"2020-10-07T18:03:39.333+08:00"},"s":"I",  "c":"STORAGE",  "id":4795902, "ctx":"consoleTerminate","msg":"Closing WiredTiger","attr":{"closeConfig":"leak_memory=true,"}}
+{"t":{"$date":"2020-10-07T18:03:39.895+08:00"},"s":"I",  "c":"STORAGE",  "id":4795901, "ctx":"consoleTerminate","msg":"WiredTiger closed","attr":{"durationMillis":562}}
+{"t":{"$date":"2020-10-07T18:03:39.895+08:00"},"s":"I",  "c":"STORAGE",  "id":22281,   "ctx":"consoleTerminate","msg":"shutdown: removing fs lock..."}
+{"t":{"$date":"2020-10-07T18:03:39.895+08:00"},"s":"I",  "c":"-",        "id":4784931, "ctx":"consoleTerminate","msg":"Dropping the scope cache for shutdown"}
+{"t":{"$date":"2020-10-07T18:03:39.907+08:00"},"s":"I",  "c":"CONTROL",  "id":20565,   "ctx":"consoleTerminate","msg":"Now exiting"}
+{"t":{"$date":"2020-10-07T18:03:39.907+08:00"},"s":"I",  "c":"CONTROL",  "id":23138,   "ctx":"consoleTerminate","msg":"Shutting down","attr":{"exitCode":12}}
